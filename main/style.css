@@ -1,0 +1,168 @@
+body {
+    background: lightgray;
+    background-image: url("../pics/back.jpg");
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;    
+    margin: 0;
+    padding-bottom: 150px;
+    border: 20px solid #472716;
+    overflow-x: hidden;
+
+}
+
+h1 {
+    color: #472716;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    z-index: 15;
+}
+
+div.list {
+    text-align: center;
+    z-index: 10;
+}
+
+ul.ul1 {
+    font-family: 'Comic Neue', cursive;
+    list-style-image: url("../pics/lizardsmol.png");
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50px;
+    z-index: 12;
+}
+
+a:link, a:visited {
+    background-color: #472716;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    color: lightgray;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: 15px;
+    border-radius: 15px;
+    line-height: 50px;
+    bottom: 12px;  
+    transition: all 1.6s;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #32A3B6;
+    font-size: 20px;
+}
+
+article {
+    font-family: 'Comic Neue', cursive;
+    color: lightgray;
+    text-align: center;
+    background-color: #472716;
+    position: relative;
+    width: 31.62vw;
+    height: 40vh;
+    box-sizing: border-box;
+    display: inline-table;
+    margin:1px -3px 0px 0px;
+    padding: 15px;
+    top: 150px;
+    transition: all 0.8s;
+    z-index: 10;
+    
+}
+
+/* div.latin{
+    color: coral;
+} */
+
+article.container1:hover {
+    background-image: url("../pics/panther.jpg");
+}
+
+article.container2:hover {
+    background-image: url("../pics/veiled.jpg");
+}
+
+article.container3:hover {
+    background-image: url("../pics/jacksons.jpg");
+}
+
+article.container4:hover {
+    background-image: url("../pics/parsons_hover.jpg");
+}
+
+article.container5:hover {
+    background-image: url("../pics/brookesia.jpg");
+}
+
+
+article:hover {
+    color: rgba(0, 0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    i {
+        color: blueviolet;
+    }
+}
+
+span.back {
+    position: fixed;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    z-index: 1;
+    
+}
+
+span.sidepic1 {
+    background-image: url("../pics/transparent_left.png");
+    width: 60vw;
+    height: 60vh;
+    left: -130px;
+    bottom: 150px;
+}
+
+span.sidepic2 {
+    background-image: url("../pics/transparent_right.png");
+    width: 60vw;
+    height: 50vh;
+    right: -140px;
+    top: -40px;
+}
+
+span.sidepic3 {
+    background-image: url("../pics/transparent_bottom.png");
+    width: 50vw;
+    height: 50vh;
+    bottom: -60px;
+    right: -80px;
+}
+
+
+a.up {
+    background-color: orange;
+    opacity: .7;
+    color: #514B23;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+    box-sizing: border-box;
+    position: fixed;
+    top: calc(100vh - 70px);
+    left: calc(100vw - 80px);
+    z-index: 15; 
+}
