@@ -11,7 +11,7 @@ export default function Gear() {
                     <img src="./images/fotikas.jpg" alt="camera" className="lg:w-2/5 rounded-2xl object-cover" />
                     <div className="text-white lg:w-2/5 text-right font-mono">
                         <h2 className="text-4xl mb-4 mt-10">FOTIKAS</h2>
-                        <p>Loremm ipsum dolor sit amet consectetur adipisicing elit. Neque doloribus dicta tempore provident quaerat veritatis, porro magnam labore nam culpa? Eum odio aperiam repudiandae delectus similique architecto pariatur suscipit et.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque doloribus dicta tempore provident quaerat veritatis, porro magnam labore nam culpa? Eum odio aperiam repudiandae delectus similique architecto pariatur suscipit et.</p>
                     </div>
                 </section>
                 <section className="flex flex-col w-4/5 lg:w-auto lg:flex-row justify-center gap-4">
